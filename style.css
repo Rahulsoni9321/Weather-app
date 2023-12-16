@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.mincontain {
+    /* display: block; */
+    width:400px;
+    height:450px;
+    background:linear-gradient(135deg,#00feba,#58548a);
+    margin: 50px auto 0;
+    border-radius: 40px;
+    text-align: center;
+    padding: 25px 30px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+
+}
+.first input {
+    border: 0;
+    outline: 0;
+    width: 280px;
+    padding : 10px 25px;
+    color : #555;
+    background: #ebfffc;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 35px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 8px rgb(101, 101, 101);
+}
+.first button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgb(84, 84, 84);
+}
+.first button img{
+    width: 12px;
+}
+.information {
+    display:block;
+}
+.error {
+    text-align: left;
+    margin-top:10px;
+    margin-left: 13px;
+    font-size:15px;
+    display: none;
+}
+.weatherimage img{
+    width: 100px;
+}
+.degree h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.windspeed {
+    display: flex;
+}
+
+sup {
+    font-size: 40px;
+}
+.degree h2{
+    font-size: 35px;
+    font-weight: 50;
+    opacity: 0.8;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px ;
+    padding-top:25px ;
+}
+.humid {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+.humid img {
+    width:35px;
+    height:28px;
+}
+.humid h1{
+    font-size: 24px;
+    font-weight: 50;
+    
+}
+.humidityvalue {
+    margin-left: 3px;
+}
+.windspeed {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+.windspeed img {
+    width:35px;
+    height:28px;
+}
+.windspeed h1{
+    font-size: 24px;
+    font-weight: 50;
+    
+}
+.speedvalue {
+    margin-left: 9px;
+}
